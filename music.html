@@ -1,0 +1,72 @@
+---
+layout: default
+title: Arklite Music
+---
+
+{% include musicmodal.html %}
+
+<div class="container fade-in" id="featured">
+    {% for song in site.data.featured %}
+    <div class="row">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center mb-3">
+            <div class="thumbnail">
+                <a href="{{ song.link }}" target="_blank" class="thumbnail-btn" data-toggle="modal" data-target="#musicModal" data-src="{{ song.embed }}">
+                    <img src="{{ song.image }}">
+                    <div class="preview">
+                        <p><b>{{ song.preview }}</b></p>
+                    </div>
+                    <div class="overlay">
+                        <p>
+                            {{ song.full }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="container" id="music">
+    <div class="row">
+        {% for song in site.data.songs %}
+        <div class="col-12 col-sm-6 col-lg-4 text-center mb-3">
+            <div class="thumbnail">
+                <a href="{{ song.link }}" target="_blank" class="thumbnail-btn" data-toggle="modal" data-target="#musicModal" data-src="{{ song.embed }}">
+                    <img src="{{ song.image }}">
+                    <div class="preview">
+                        <p><b>{{ song.preview }}</b></p>
+                    </div>
+                    <div class="overlay">
+                        <p>
+                            {{ song.full }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    var noscriptLinks = document.querySelectorAll('.thumbnail a');
+    var fadeIn = document.querySelectorAll('#music .col-12');
+    for (var i = 0; i < fadeIn.length; i++) {
+        var element = fadeIn[i];
+        element.style.opacity = '0';
+    }
+
+    for (var i = 0; i < noscriptLinks.length; i++) {
+        var link = noscriptLinks[i];
+        link.setAttribute('href', '#');
+    }
+
+    $(window).bind("load", function () {
+        for (var i = 0; i < fadeIn.length; i++) {
+            var element = fadeIn[i];
+            element.classList.add('fade-in');
+            element.style['animation-delay'] = (.08 * (i + 1)) + 's';
+        }
+    });
+</script>

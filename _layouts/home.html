@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        @media all and (-ms-high-contrast:none) {
+
+            *::-ms-backdrop,
+            .centered-wrapper {
+                height: 100%;
+            }
+
+            .logodiv {
+                height: 252px;
+            }
+        }
+
+        html,
+        body,
+        main {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg"></div>
+
+    <main role="main">
+        {{ content }}
+    </main>
+
+    <footer class="text-center fixed">
+        <span>© Arklite • Website: Jazz D.</span>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+# FORMATTING:
+# line break: <br>
+# bold: <b>Bolt Text Here</b>
+
+- link: https://www.youtube.com/watch?v=3nfSwyfDQK4
+  embed: https://www.youtube.com/embed/3nfSwyfDQK4
+  image: https://img.youtube.com/vi/3nfSwyfDQK4/hqdefault.jpg
+  preview: Spirit LINE
+  full: <b>Spirit LINE</b>
+        <br>
+        feat. Hatsune Miku • 初音ミク
+
+- link: https://www.youtube.com/watch?v=Kr72y940D6c
+  embed: https://www.youtube.com/embed/Kr72y940D6c
+  image: https://img.youtube.com/vi/Kr72y940D6c/hqdefault.jpg
+  preview: Fly With Me!
+  full: <b>Fly With Me!</b>
+        <br>
+        feat. Hatsune Miku • 初音ミク
+
+- link: https://www.youtube.com/watch?v=GL093xdXwnc
+  embed: https://www.youtube.com/embed/GL093xdXwnc
+  image: https://img.youtube.com/vi/GL093xdXwnc/hqdefault.jpg
+  preview: KATAMARI ON THE ROCKS
+  full: <b>KATAMARI ON THE ROCKS</b>
+        <br>
+        <b>塊オンザロック</b>
+        <br>
+        Arklite Ver.
+
+- link: https://www.youtube.com/watch?v=QDbwHBH0kpw
+  embed: https://www.youtube.com/embed/QDbwHBH0kpw
+  image: https://img.youtube.com/vi/QDbwHBH0kpw/hqdefault.jpg
+  preview: Island World
+  full: <b>Island World</b>
+        <br>
+        Shiny Tropics
+        <br>
+        (Track, mix, master, video by Arklite)
+
+- link: https://www.youtube.com/watch?v=xBLHFET5cHI
+  embed: https://www.youtube.com/embed/xBLHFET5cHI
+  image: https://img.youtube.com/vi/xBLHFET5cHI/hqdefault.jpg
+  preview: Collapse
+  full: <b>Collapse</b>
+        <br>
+        Collapse
+
+- link: https://www.youtube.com/watch?v=yf9jS6JZPOs
+  embed: https://www.youtube.com/embed/yf9jS6JZPOs
+  image: https://img.youtube.com/vi/yf9jS6JZPOs/hqdefault.jpg
+  preview: Ground Floor 
+  full: <b>Ground Floor</b>
+        <br>
+        Collapse
+
+- link: https://www.youtube.com/watch?v=AVFpdJsfLIM
+  embed: https://www.youtube.com/embed/AVFpdJsfLIM
+  image: https://img.youtube.com/vi/AVFpdJsfLIM/hqdefault.jpg
+  preview: Soaring
+  full: <b>Soaring</b>
+        <br>
+        Collapse
+
+- link: https://www.youtube.com/watch?v=_kxr-kYd_MU
+  embed: https://www.youtube.com/embed/_kxr-kYd_MU
+  image: https://img.youtube.com/vi/_kxr-kYd_MU/hqdefault.jpg
+  preview: Missing
+  full: <b>Missing</b>
+        <br>
+        Collapse
+
+- link: https://www.youtube.com/watch?v=yqqvPKGhKuY
+  embed: https://www.youtube.com/embed/yqqvPKGhKuY
+  image: https://img.youtube.com/vi/yqqvPKGhKuY/hqdefault.jpg
+  preview: Lonely Drifter
+  full: <b>Lonely Drifter</b>
+        <br>
+        Collapse
+
+- link: https://www.youtube.com/watch?v=pDfvivKHrRo
+  embed: https://www.youtube.com/embed/pDfvivKHrRo
+  image: https://img.youtube.com/vi/pDfvivKHrRo/hqdefault.jpg
+  preview: Acropolis
+  full: <b>Acropolis</b>
+        <br>
+        Collapse

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            padding-bottom: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/"><img class="logo-small" src="img/arklitelogo.png"></a>
+            <button id="custom-toggler" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+                <ul class="nav justify-content-center">
+                    {% include navlinks.html %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main">
+        {{ content }}
+    </main>
+
+    <footer class="text-center">
+        <span>© Arklite • Website: Jazz D.</span>
+    </footer>
+</body>
+
+</html>

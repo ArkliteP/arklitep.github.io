@@ -1,0 +1,13 @@
+# FORMATTING:
+# line break: <br>
+# bold: <b>Bolt Text Here</b>
+
+- link: https://www.youtube.com/watch?v=Yhi5PjGmdX8
+  embed: https://www.youtube.com/embed/Yhi5PjGmdX8
+  image: https://img.youtube.com/vi/Yhi5PjGmdX8/sddefault.jpg
+  preview: LIVE TO SURVIVE • 生き残るべく生きる
+  full: <b>LIVE TO SURVIVE</b>
+        <br>
+        <b>生き残るべく生きる</b>
+        <br>
+        feat. Kagamine Rin & Len / 鏡音リン・レン

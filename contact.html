@@ -1,0 +1,26 @@
+---
+layout: default
+title: Arklite Music - Contact
+permalink: /contact
+---
+
+<div class="container text-center fade-in">
+    <div class="rounded-bg">
+        <h3 class="title"><b>Business Inquiries:</b></h3>
+        <br>
+        <button data-clipboard-text="arklitemusic@gmail.com" class="btn btn-outline-secondary">
+            <h3 class="title">arklitemusic<span></span>@gmail.com</h3>
+        </button>
+        <p class="copied">Copied to clipboard!</p>
+    </div>
+</div>
+
+<script src="js/clipboard.min.js"></script>
+<script>
+    var clip = new ClipboardJS('.btn');
+    var copied = document.querySelector('.copied');
+
+    clip.on('success', function () {
+        copied.style.opacity = '1';
+    });
+</script>
