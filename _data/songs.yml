@@ -2,6 +2,17 @@
 # line break: <br>
 # bold: <b>Bolt Text Here</b>
 
+- link: https://www.youtube.com/watch?v=Yhi5PjGmdX8
+  embed: https://www.youtube.com/embed/Yhi5PjGmdX8
+  image: https://img.youtube.com/vi/Yhi5PjGmdX8/sddefault.jpg
+  preview: LIVE TO SURVIVE • 生き残るべく生きる
+  full: <b>LIVE TO SURVIVE</b>
+        <br>
+        <b>生き残るべく生きる</b>
+        <br>
+        feat. Kagamine Rin & Len / 鏡音リン・レン
+
+
 - link: https://www.youtube.com/watch?v=3nfSwyfDQK4
   embed: https://www.youtube.com/embed/3nfSwyfDQK4
   image: https://img.youtube.com/vi/3nfSwyfDQK4/hqdefault.jpg
@@ -38,50 +49,50 @@
         <br>
         (Track, mix, master, video by Arklite)
 
-- link: https://www.youtube.com/watch?v=xBLHFET5cHI
-  embed: https://www.youtube.com/embed/xBLHFET5cHI
-  image: https://img.youtube.com/vi/xBLHFET5cHI/hqdefault.jpg
-  preview: Collapse
-  full: <b>Collapse</b>
-        <br>
-        Collapse
+# - link: https://www.youtube.com/watch?v=xBLHFET5cHI
+#   embed: https://www.youtube.com/embed/xBLHFET5cHI
+#   image: https://img.youtube.com/vi/xBLHFET5cHI/hqdefault.jpg
+#   preview: Collapse
+#   full: <b>Collapse</b>
+#         <br>
+#         Collapse
 
-- link: https://www.youtube.com/watch?v=yf9jS6JZPOs
-  embed: https://www.youtube.com/embed/yf9jS6JZPOs
-  image: https://img.youtube.com/vi/yf9jS6JZPOs/hqdefault.jpg
-  preview: Ground Floor 
-  full: <b>Ground Floor</b>
-        <br>
-        Collapse
+# - link: https://www.youtube.com/watch?v=yf9jS6JZPOs
+#   embed: https://www.youtube.com/embed/yf9jS6JZPOs
+#   image: https://img.youtube.com/vi/yf9jS6JZPOs/hqdefault.jpg
+#   preview: Ground Floor 
+#   full: <b>Ground Floor</b>
+#         <br>
+#         Collapse
 
-- link: https://www.youtube.com/watch?v=AVFpdJsfLIM
-  embed: https://www.youtube.com/embed/AVFpdJsfLIM
-  image: https://img.youtube.com/vi/AVFpdJsfLIM/hqdefault.jpg
-  preview: Soaring
-  full: <b>Soaring</b>
-        <br>
-        Collapse
+# - link: https://www.youtube.com/watch?v=AVFpdJsfLIM
+#   embed: https://www.youtube.com/embed/AVFpdJsfLIM
+#   image: https://img.youtube.com/vi/AVFpdJsfLIM/hqdefault.jpg
+#   preview: Soaring
+#   full: <b>Soaring</b>
+#         <br>
+#         Collapse
 
-- link: https://www.youtube.com/watch?v=_kxr-kYd_MU
-  embed: https://www.youtube.com/embed/_kxr-kYd_MU
-  image: https://img.youtube.com/vi/_kxr-kYd_MU/hqdefault.jpg
-  preview: Missing
-  full: <b>Missing</b>
-        <br>
-        Collapse
+# - link: https://www.youtube.com/watch?v=_kxr-kYd_MU
+#   embed: https://www.youtube.com/embed/_kxr-kYd_MU
+#   image: https://img.youtube.com/vi/_kxr-kYd_MU/hqdefault.jpg
+#   preview: Missing
+#   full: <b>Missing</b>
+#         <br>
+#         Collapse
 
-- link: https://www.youtube.com/watch?v=yqqvPKGhKuY
-  embed: https://www.youtube.com/embed/yqqvPKGhKuY
-  image: https://img.youtube.com/vi/yqqvPKGhKuY/hqdefault.jpg
-  preview: Lonely Drifter
-  full: <b>Lonely Drifter</b>
-        <br>
-        Collapse
+# - link: https://www.youtube.com/watch?v=yqqvPKGhKuY
+#   embed: https://www.youtube.com/embed/yqqvPKGhKuY
+#   image: https://img.youtube.com/vi/yqqvPKGhKuY/hqdefault.jpg
+#   preview: Lonely Drifter
+#   full: <b>Lonely Drifter</b>
+#         <br>
+#         Collapse
 
-- link: https://www.youtube.com/watch?v=pDfvivKHrRo
-  embed: https://www.youtube.com/embed/pDfvivKHrRo
-  image: https://img.youtube.com/vi/pDfvivKHrRo/hqdefault.jpg
-  preview: Acropolis
-  full: <b>Acropolis</b>
-        <br>
-        Collapse
+# - link: https://www.youtube.com/watch?v=pDfvivKHrRo
+#   embed: https://www.youtube.com/embed/pDfvivKHrRo
+#   image: https://img.youtube.com/vi/pDfvivKHrRo/hqdefault.jpg
+#   preview: Acropolis
+#   full: <b>Acropolis</b>
+#         <br>
+#         Collapse

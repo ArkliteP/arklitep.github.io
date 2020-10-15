@@ -11,7 +11,7 @@ html {
   height: 100vh;
   position: fixed;
   z-index: -200;
-  background: url(../img/arklitebg.png) no-repeat center center fixed;
+  background: url(../img/arklitebg.jpg) no-repeat center center fixed;
   background-size: cover; }
 
 .fade-in {
@@ -49,7 +49,7 @@ footer {
   line-height: 40px;
   color: #000;
   filter: drop-shadow(-1px 1px 0px #fff);
-  opacity: .4; }
+  opacity: .39; }
 
 .fixed {
   position: fixed;
