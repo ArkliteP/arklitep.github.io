@@ -2,6 +2,16 @@
 # line break: <br>
 # bold: <b>Bolt Text Here</b>
 
+- link: https://www.youtube.com/watch?v=ZyJmF45Jqak
+  embed: https://www.youtube.com/embed/ZyJmF45Jqak
+  image: https://img.youtube.com/vi/ZyJmF45Jqak/sddefault.jpg
+  preview: PORTAL • ポータル
+  full: <b>PORTAL</b>
+        <br>
+        <b>ポータル</b>
+        <br>
+        feat. Hatsune Miku • 初音ミク
+
 - link: https://www.youtube.com/watch?v=Yhi5PjGmdX8
   embed: https://www.youtube.com/embed/Yhi5PjGmdX8
   image: https://img.youtube.com/vi/Yhi5PjGmdX8/sddefault.jpg
