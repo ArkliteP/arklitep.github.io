@@ -35,6 +35,9 @@ html {
   .rounded-bg span {
     display: inline-block; }
 
+.red-shadow {
+  filter: drop-shadow(3px 3px 0px #f70029); }
+
 .copied {
   margin-top: 10px;
   margin-bottom: -10px;
@@ -229,6 +232,67 @@ footer {
   opacity: 0;
   transition: opacity 3s; }
 
+#new {
+  position: fixed;
+  padding: 5px;
+  z-index: 999;
+  right: 10px;
+  bottom: 10px;
+  width: 300px;
+  max-width: 60vw;
+  border-radius: 10px;
+  background-color: #282828;
+  border: 4px solid #f70029; }
+  #new .thumbnail {
+    filter: none !important;
+    border-radius: 10px;
+    margin: auto; }
+    #new .thumbnail:hover .preview {
+      opacity: 1; }
+
+.fade-in-left {
+  animation: fade-in-leftFrames .8s;
+  animation-fill-mode: forwards;
+  animation-delay: .8s;
+  opacity: 0; }
+
+@keyframes fade-in-leftFrames {
+  from {
+    opacity: 0;
+    right: -10px; }
+  to {
+    opacity: 1;
+    right: 10px; } }
+.sb:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #f70029;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  bottom: 10px;
+  right: -23px; }
+.sb:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #282828;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  bottom: 10px;
+  right: -17px; }
+
+.blinking {
+  font-weight: 900;
+  opacity: 1; }
+
+@keyframes blinkingFrames {
+  50% {
+    opacity: .1; } }
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

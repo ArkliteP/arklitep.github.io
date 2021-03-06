@@ -27,19 +27,21 @@ title: Arklite Music
     {% endfor %}
 </div>
 
-<div class="container" id="music">
+{% for section in site.data.sections %}
+<div class="container">
+    <h2 class="text-dark red-shadow text-center fade-sequential"><b>{{ section.title }}</b></h2>
     <div class="row">
-        {% for song in site.data.songs %}
-        <div class="col-12 col-sm-6 col-lg-4 text-center mb-3">
+        {% for video in section.videos %}
+        <div class="col-12 col-sm-6 col-lg-4 text-center mb-3 fade-sequential">
             <div class="thumbnail">
-                <a href="{{ song.link }}" target="_blank" class="thumbnail-btn" data-toggle="modal" data-target="#musicModal" data-src="{{ song.embed }}">
-                    <img src="{{ song.image }}">
+                <a href="{{ video.link }}" target="_blank" class="thumbnail-btn" data-toggle="modal" data-target="#musicModal" data-src="{{ video.embed }}">
+                    <img src="{{ video.image }}">
                     <div class="preview">
-                        <p><b>{{ song.preview }}</b></p>
+                        <p><b>{{ video.preview }}</b></p>
                     </div>
                     <div class="overlay">
                         <p>
-                            {{ song.full }}
+                            {{ video.full }}
                         </p>
                     </div>
                 </a>
@@ -48,10 +50,11 @@ title: Arklite Music
         {% endfor %}
     </div>
 </div>
+{% endfor %}
 
 <script>
     var noscriptLinks = document.querySelectorAll('.thumbnail a');
-    var fadeIn = document.querySelectorAll('#music .col-12');
+    var fadeIn = document.querySelectorAll('.fade-sequential');
     for (var i = 0; i < fadeIn.length; i++) {
         var element = fadeIn[i];
         element.style.opacity = '0';

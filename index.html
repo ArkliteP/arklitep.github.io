@@ -6,6 +6,23 @@ title: Arklite Music
 <canvas id="sequencerCanvas"></canvas>
 <div id="dim"></div>
 
+{% for video in site.data.featured %}
+{% if video.show_on_homepage %}
+<div id="new" class="text-center fade-in-left">
+    <div class="sb"></div>
+    <span class="blinking text-secondary">New Release:</span>
+    <div class="thumbnail bottom-0">
+        <a href="{{ video.link }}" target="_blank" class="thumbnail-btn">
+            <img src="{{ video.image }}">
+            <div class="preview">
+                <p><b>{{ video.homepage_preview }}</b></p>
+            </div>
+        </a>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
 <div class="centered-wrapper text-center fade-in">
     <div class="logodiv">
         <img class="logo" src="img/arklitelogodotless.png">
