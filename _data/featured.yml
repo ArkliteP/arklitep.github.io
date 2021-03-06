@@ -2,14 +2,14 @@
 # line break: <br>
 # bold: <b>Bolt Text Here</b>
 
-- link: https://www.youtube.com/watch?v=WXP-ebYgDAU
-  embed: https://www.youtube.com/embed/WXP-ebYgDAU
-  image: https://img.youtube.com/vi/WXP-ebYgDAU/hqdefault.jpg
+- link: https://www.youtube.com/watch?v=OxwKePxB6eM
+  embed: https://www.youtube.com/embed/OxwKePxB6eM
+  image: https://img.youtube.com/vi/OxwKePxB6eM/hqdefault.jpg
   preview: Gumi's JAMBOX || EP 1
   full: <b>Gumi's JAMBOX</b>
         <br>
-        <b>How to write MUSIC</b>
+        <b>How to Create SOUNDS</b>
         <br>
-        Episode 1
+        Episode 2
   show_on_homepage: true
-  homepage_preview: Gumi's JAMBOX EP 1
+  homepage_preview: Gumi's JAMBOX EP 2

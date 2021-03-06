@@ -2,19 +2,6 @@
 # line break: <br>
 # bold: <b>Bolt Text Here</b>
 
-- title: Gumi's JAMBOX
-  videos:
-  - link: https://www.youtube.com/watch?v=WXP-ebYgDAU
-    embed: https://www.youtube.com/embed/WXP-ebYgDAU
-    image: https://img.youtube.com/vi/WXP-ebYgDAU/hqdefault.jpg
-    preview: Gumi's JAMBOX || EP 1
-    full: <b>Gumi's JAMBOX</b>
-          <br>
-          <b>How to write MUSIC</b>
-          <br>
-          Episode 1
-
-
 - title: Music
   videos:
   - link: https://www.youtube.com/watch?v=ZyJmF45Jqak
@@ -73,6 +60,26 @@
           <br>
           (Track, mix, master, video by Arklite)
 
+- title: Gumi's JAMBOX
+  videos:
+  - link: https://www.youtube.com/watch?v=WXP-ebYgDAU
+    embed: https://www.youtube.com/embed/WXP-ebYgDAU
+    image: https://img.youtube.com/vi/WXP-ebYgDAU/hqdefault.jpg
+    preview: Gumi's JAMBOX || EP 1
+    full: <b>Gumi's JAMBOX</b>
+          <br>
+          <b>How to write MUSIC</b>
+          <br>
+          Episode 1
+  - link: https://www.youtube.com/watch?v=OxwKePxB6eM
+    embed: https://www.youtube.com/embed/OxwKePxB6eM
+    image: https://img.youtube.com/vi/OxwKePxB6eM/hqdefault.jpg
+    preview: Gumi's JAMBOX || EP 2
+    full: <b>Gumi's JAMBOX</b>
+          <br>
+          <b>How to Create SOUNDS</b>
+          <br>
+          Episode 2
 
 # - link: https://www.youtube.com/watch?v=xBLHFET5cHI
 #   embed: https://www.youtube.com/embed/xBLHFET5cHI
