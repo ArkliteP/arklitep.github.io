@@ -13,7 +13,7 @@ title: Arklite Music
     <span class="blinking text-secondary">New Release:</span>
     <div class="thumbnail bottom-0">
         <a href="{{ video.link }}" target="_blank" class="thumbnail-btn">
-            <img src="{{ video.image }}">
+            <img id="featured-img" src="{{ video.image }}">
             <div class="preview">
                 <p><b>{{ video.homepage_preview }}</b></p>
             </div>
@@ -28,12 +28,12 @@ title: Arklite Music
         <img class="logo" src="img/arklitelogodotless.png">
         <div id="dot-shadow">
             <div class="rotate" id="dot" onclick="showSequencer()">
-                <div id="dot-inner"></div>
+                <!-- <div id="dot-inner"></div> -->
             </div>
         </div>
     </div>
 
-    <h3 class="title text-dark">Artist / Music Producer</h3>
+    <h3 class="title text-light colored-shadow">Artist / Music Producer</h3>
 
     <nav class="navbar navbar-expand">
         <div class="container">
@@ -46,7 +46,7 @@ title: Arklite Music
     </nav>
     <div class="music-btn-shadow">
         <a href="/music">
-            <button id="music-btn" class="btn btn-outline-dark">
+            <button id="music-btn" class="btn btn-outline-light">
                 <h4>Music »</h4>
             </button>
         </a>
@@ -67,19 +67,41 @@ title: Arklite Music
         shown: 2,
         shrinking: 3
     }
+    const numPages = 4;
+    const tempo = 150;
+
+    // old sizes and colors (red, black, white, and grey logo)
+    // const size = 1000;
+    // const margin = 120;
+    // const innerSize = size - margin * 2;
+    // const interval = innerSize / 8;
+    // const shapeScale = .9;
+    // const scaledInterval = interval * shapeScale;
+    // const colors = {
+    //     white: 0xffffff,
+    //     bg: 0xf70029,
+    //     border: 0xc1c2c4,
+    //     cover: 0x282828,
+    //     off: 0x282828,
+    //     playhead: 0xc1c2c4,
+    //     on: 0xdfffff,
+    // }
+
+    // new sizes and colors (white and burgundy logo)
     const size = 1000;
-    const margin = 120;
+    const margin = 60;
     const innerSize = size - margin * 2;
     const interval = innerSize / 8;
     const shapeScale = .9;
     const scaledInterval = interval * shapeScale;
-    const numPages = 4;
-    const tempo = 150;
     const colors = {
-        red: 0xf70029,
-        grey: 0xc1c2c4,
-        black: 0x282828,
-        white: 0xffffff
+        white: 0xffffff,
+        bg: 0xffffff,
+        border: 0xffffff,
+        cover: 0xffffff,
+        off: 0xdddddd,
+        playhead: 0xbbbbbb,
+        on: 0x999999,
     }
 
     var state = states.hidden;
@@ -307,7 +329,7 @@ title: Arklite Music
                         var node = nodes[(p * 8) + i][j];
 
                         node.play = state;
-                        node.setTint(state ? colors.white : colors.black);
+                        node.setTint(state ? colors.on : colors.off);
                     }
                 }
             }
@@ -318,7 +340,7 @@ title: Arklite Music
                     for (var j = 0; j < 7; j++) {
                         var node = nodes[(p * 8) + i][j];
                         node.play = false;
-                        node.setTint(colors.black);
+                        node.setTint(colors.off);
                     }
                 }
             }
@@ -359,7 +381,7 @@ title: Arklite Music
             this.sound.volume = volume;
 
             this.cameras.main.setViewport(0, 0, size, size);
-            this.cameras.main.setBackgroundColor(0xf70029);
+            this.cameras.main.setBackgroundColor(colors.bg);
 
             this.add.graphics({
                 fillStyle: { color: colors.white },
@@ -393,31 +415,31 @@ title: Arklite Music
                 .fillRect(scaledInterval * .2, scaledInterval * .9, scaledInterval * .6, scaledInterval * .1)
                 .generateTexture('trash', scaledInterval, scaledInterval)
                 .clear()
-                .fillStyle(colors.black)
+                .fillStyle(colors.cover)
                 .fillRect(0, 0, innerSize, innerSize)
                 .generateTexture('cover', innerSize, innerSize)
                 .clear()
-                .fillStyle(colors.grey)
+                .fillStyle(colors.border)
                 .fillRect(0, 0, margin / 2, size)
                 .fillRect(0, 0, size, margin / 2)
                 .fillRect(size - margin / 2, 0, margin / 2, size)
                 .fillRect(0, size - margin / 2, size, margin / 2)
-                .generateTexture('grey', size, size)
+                .generateTexture('border', size, size)
                 .clear();
 
-            this.add.image(0, 0, 'grey').setOrigin(0, 0).setDepth(10).setScrollFactor(0);
+            this.add.image(0, 0, 'border').setOrigin(0, 0).setDepth(10).setScrollFactor(0);
             this.cover = this.add.image(size / 2, size / 2, 'cover').setDepth(10).setScrollFactor(0);
 
             for (var p = 0; p < numPages; p++) {
                 for (var i = 0; i < 8; i++) {
                     nodes[(p * 8) + i] = [];
                     for (var j = 0; j < 7; j++) {
-                        let node = this.add.image(size * p + margin + interval / 2 + interval * i, margin + interval / 2 + interval * j, 'square').setTint(colors.black);
+                        let node = this.add.image(size * p + margin + interval / 2 + interval * i, margin + interval / 2 + interval * j, 'square').setTint(colors.off);
                         node.play = false;
                         node.position = (p * 8) + i;
                         node.setInteractive({ useHandCursor: true }).on('pointerdown', function () {
                             node.play = !node.play;
-                            node.setTint(node.play ? colors.white : this.step == node.position ? colors.grey : colors.black);
+                            node.setTint(node.play ? colors.on : this.step == node.position ? colors.playhead : colors.off);
                             save();
                         }, this);
                         nodes[(p * 8) + i][j] = node;
@@ -429,7 +451,7 @@ title: Arklite Music
 
             var page = 0;
             var arrowLeft = this.add.image(margin + interval / 2 + interval * 2, margin + interval / 2 + interval * 7, 'arrow')
-                .setTint(colors.black).setAngle(270).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
+                .setTint(colors.off).setAngle(270).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
                     page--;
                     if (page < 0)
                         page = numPages - 1;
@@ -437,7 +459,7 @@ title: Arklite Music
                     this.highlight(arrowLeft);
                 }, this);
             var arrowRight = this.add.image(margin + interval / 2 + interval * 5, margin + interval / 2 + interval * 7, 'arrow')
-                .setTint(colors.black).setAngle(90).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
+                .setTint(colors.off).setAngle(90).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
                     page++;
                     if (page > numPages - 1)
                         page = 0;
@@ -446,28 +468,28 @@ title: Arklite Music
                 }, this);
 
             this.pause = this.add.image(size / 2, margin + interval / 2 + interval * 7, 'play')
-                .setTint(colors.black).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
+                .setTint(colors.off).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
                     this.setPaused(null, true);
                     this.highlight(this.pause);
                 }, this);
 
             var quit = this.add.image(margin + interval / 2, margin + interval / 2 + interval * 7, 'quit')
-                .setTint(colors.black).setAngle(45).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
+                .setTint(colors.off).setAngle(45).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
                     hideSequencer();
                     this.highlight(quit);
                 }, this);
 
             var trash = this.add.image(margin + interval / 2 + interval * 7, margin + interval / 2 + interval * 7, 'trash')
-                .setTint(colors.black).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
+                .setTint(colors.off).setScrollFactor(0).setInteractive({ useHandCursor: true }).on('pointerdown', function () {
                     for (var p = 0; p < numPages; p++) {
                         for (var i = 0; i < 8; i++) {
                             for (var j = 0; j < 7; j++) {
                                 var node = nodes[(p * 8) + i][j];
                                 node.play = false;
                                 if (node.position == this.step)
-                                    node.setTint(colors.grey);
+                                    node.setTint(colors.playhead);
                                 else
-                                    node.setTint(colors.black);
+                                    node.setTint(colors.off);
                             }
                         }
                     }
@@ -492,7 +514,7 @@ title: Arklite Music
                             this.sound.play(i);
                             node.setScale(1.2);
                         } else {
-                            node.setTint(colors.grey);
+                            node.setTint(colors.playhead);
                         }
                     }
                 },
@@ -503,7 +525,7 @@ title: Arklite Music
             for (var i = 0; i < 7; i++) {
                 var node = nodes[this.step][i];
                 if (!node.play) {
-                    node.setTint(colors.black);
+                    node.setTint(colors.off);
                 }
                 node.setScale(1);
             }
@@ -522,9 +544,9 @@ title: Arklite Music
             });
         },
         highlight: function (element) {
-            element.setTint(colors.white);
+            element.setTint(colors.on);
             this.time.delayedCall(100, function () {
-                element.setTint(colors.black);
+                element.setTint(colors.off);
             }, null, this);
         },
         setPaused: function (pause, toggle) {

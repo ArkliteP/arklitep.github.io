@@ -11,7 +11,7 @@ title: Arklite Music
         <div class="col-12 col-lg-8 offset-lg-2 text-center mb-3">
             <div class="thumbnail">
                 <a href="{{ song.link }}" target="_blank" class="thumbnail-btn" data-toggle="modal" data-target="#musicModal" data-src="{{ song.embed }}">
-                    <img src="{{ song.image }}">
+                    <img id="featured-img" src="{{ song.image }}">
                     <div class="preview">
                         <p><b>{{ song.preview }}</b></p>
                     </div>
@@ -29,7 +29,7 @@ title: Arklite Music
 
 {% for section in site.data.sections %}
 <div class="container">
-    <h2 class="text-dark red-shadow text-center fade-sequential"><b>{{ section.title }}</b></h2>
+    <h2 class="text-light colored-shadow text-center fade-sequential"><b>{{ section.title }}</b></h2>
     <div class="row">
         {% for video in section.videos %}
         <div class="col-12 col-sm-6 col-lg-4 text-center mb-3 fade-sequential">

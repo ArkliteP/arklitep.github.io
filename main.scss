@@ -11,10 +11,20 @@
 // variables
 $font-family-sans-serif: mgenplus, sans-serif;
 
+// old colors (red, black, white, and grey logo)
+// $theme-colors: (
+//     "primary":    #f70029,
+//     "secondary": #fff,
+//     "light":     #c1c2c4,
+//     "dark":       #282828,
+// );
+
+// new sizes and colors (white and burgundy logo)
 $theme-colors: (
-    "primary":    #f70029,
+    "white": #fff,
+    "primary":    #af2439,
     "secondary": #fff,
-    "light":     #c1c2c4,
+    "light":     #fff,
     "dark":       #282828,
 );
 
@@ -67,8 +77,8 @@ html {
         display: inline-block;
     }
 }
-.red-shadow {
-    filter: drop-shadow(3px 3px 0px map-get($theme-colors, "primary"))
+.colored-shadow {
+    filter: drop-shadow(3px 3px 0px map-get($theme-colors, "dark"))
 }
 
 // contact
@@ -87,9 +97,10 @@ footer {
     width: 100%;
     height: 40px;
     line-height: 40px;
-    color: #000;
-    filter: drop-shadow(-1px 1px 0px #fff);
-    opacity: .39;
+    color: #fff;
+    filter: drop-shadow(-1px 1px 0px #000);
+    opacity: .45;
+    font-size: .8rem;
     // color: #666;
     // mix-blend-mode: difference;
 }
@@ -123,12 +134,12 @@ footer {
     }
     a {
         img {
-            opacity: .71; 
+            opacity: .85; 
             height:  30px;
             transition: .3s ease;
         }
         span {
-            opacity: .71; 
+            opacity: .85; 
             color: #fff;
             transition: .3s ease;
         }
@@ -149,6 +160,7 @@ footer {
     max-width: 60vw;
 }
 .nav {
+    border: 2px solid map-get($theme-colors, "white");
     background-color: map-get($theme-colors, "dark");
     border-radius: 10px;
 }
@@ -211,6 +223,10 @@ footer {
         margin: -9.4% 0;
     }
 
+    #featured-img {
+        margin: 0 0;
+    }
+
     &:hover{
         .overlay {
             opacity: 1; 
@@ -243,12 +259,12 @@ footer {
 
     #dot-shadow {
         position: absolute;
-        top: 28.2%;
-        right: 32.8%;
+        top: 21.9%;
+        right: 33.4%;
 
         width: 2.4%;
         padding-top: 2.4%;
-        filter: drop-shadow(2px 1px .5px rgba(0, 0, 0, .5));
+        filter: drop-shadow(4px 4px 1px rgba(0, 0, 0, .8));
     }
     #dot {
         position: absolute;
@@ -256,16 +272,14 @@ footer {
         left: 0;
         cursor: pointer;
 
-        background-color: map-get($theme-colors, "primary");
-        outline: solid;
-        outline-width: 1px;
-        outline-color: map-get($theme-colors, "light");
+        background-color: map-get($theme-colors, "white");
+
 
         width: 100%;
         height: 100%;
     }
     #dot-inner {
-        background-color: map-get($theme-colors, "dark");
+        background-color: map-get($theme-colors, "white");
         width: 80%;
         height: 80%;
 
@@ -289,9 +303,9 @@ footer {
 #music-btn {
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: map-get($theme-colors, "dark");
     &:hover {
-        background-color: map-get($theme-colors, "dark");
+        background-color: map-get($theme-colors, "light");
     }
 }
 .music-btn-shadow {
@@ -335,7 +349,7 @@ footer {
     max-width: 60vw;
     border-radius: 10px;
     background-color: map-get($theme-colors, "dark");
-    border: 4px solid map-get($theme-colors, "primary");
+    border: 4px solid map-get($theme-colors, "white");
     .thumbnail {
         filter: none !important;
         border-radius: 10px;
@@ -371,7 +385,7 @@ footer {
         width: 0px;
         height: 0px;
         position: absolute;
-        border-left: 10px solid map-get($theme-colors, "primary");
+        border-left: 10px solid map-get($theme-colors, "white");
         border-right: 10px solid transparent;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;

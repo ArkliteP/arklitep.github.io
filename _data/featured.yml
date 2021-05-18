@@ -2,14 +2,12 @@
 # line break: <br>
 # bold: <b>Bolt Text Here</b>
 
-- link: https://www.youtube.com/watch?v=OxwKePxB6eM
-  embed: https://www.youtube.com/embed/OxwKePxB6eM
-  image: https://img.youtube.com/vi/OxwKePxB6eM/hqdefault.jpg
-  preview: Gumi's JAMBOX || EP 2
-  full: <b>Gumi's JAMBOX</b>
+- link: https://www.youtube.com/watch?v=XXM0fG0xmRc
+  embed: https://www.youtube.com/embed/XXM0fG0xmRc
+  image: http://img.youtube.com/vi/XXM0fG0xmRc/maxresdefault.jpg
+  preview: Puzzle Me Miku
+  full: <b>Puzzle Me Miku</b>
         <br>
-        <b>How to Create SOUNDS</b>
-        <br>
-        Episode 2
+        ft. Hatsune Miku • 初音ミク
   show_on_homepage: true
-  homepage_preview: Gumi's JAMBOX EP 2
+  homepage_preview: Puzzle Me Miku

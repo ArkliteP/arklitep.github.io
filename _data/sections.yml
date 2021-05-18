@@ -24,14 +24,6 @@
           <br>
           feat. Kagamine Rin & Len / 鏡音リン・レン
 
-  - link: https://www.youtube.com/watch?v=3nfSwyfDQK4
-    embed: https://www.youtube.com/embed/3nfSwyfDQK4
-    image: https://img.youtube.com/vi/3nfSwyfDQK4/hqdefault.jpg
-    preview: Spirit LINE
-    full: <b>Spirit LINE</b>
-          <br>
-          ft. Hatsune Miku • 初音ミク
-
   - link: https://www.youtube.com/watch?v=Kr72y940D6c
     embed: https://www.youtube.com/embed/Kr72y940D6c
     image: https://img.youtube.com/vi/Kr72y940D6c/hqdefault.jpg
@@ -80,6 +72,15 @@
           <b>How to Create SOUNDS</b>
           <br>
           Episode 2
+
+
+  # - link: https://www.youtube.com/watch?v=3nfSwyfDQK4
+  #   embed: https://www.youtube.com/embed/3nfSwyfDQK4
+  #   image: https://img.youtube.com/vi/3nfSwyfDQK4/hqdefault.jpg
+  #   preview: Spirit LINE
+  #   full: <b>Spirit LINE</b>
+  #         <br>
+  #         ft. Hatsune Miku • 初音ミク
 
 # - link: https://www.youtube.com/watch?v=xBLHFET5cHI
 #   embed: https://www.youtube.com/embed/xBLHFET5cHI
