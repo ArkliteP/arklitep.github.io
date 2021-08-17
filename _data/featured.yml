@@ -2,12 +2,14 @@
 # line break: <br>
 # bold: <b>Bolt Text Here</b>
 
-- link: https://www.youtube.com/watch?v=XXM0fG0xmRc
-  embed: https://www.youtube.com/embed/XXM0fG0xmRc
-  image: http://img.youtube.com/vi/XXM0fG0xmRc/maxresdefault.jpg
-  preview: Puzzle Me Miku
-  full: <b>Puzzle Me Miku</b>
-        <br>
-        ft. Hatsune Miku • 初音ミク
+- link: https://www.youtube.com/watch?v=3u6-8X2hOT0
+  embed: https://www.youtube.com/embed/3u6-8X2hOT0
+  image: http://img.youtube.com/vi/3u6-8X2hOT0/maxresdefault.jpg
+  preview: エキサイティングシャイン！！ • Exciting Shine!!
+  full: <b>エキサイティングシャイン！！</b>
+    <br>
+    <b>Exciting Shine!!</b>
+    <br>
+    feat. 6 Vocaloids
   show_on_homepage: true
-  homepage_preview: Puzzle Me Miku
+  homepage_preview: エキサイティングシャイン！！

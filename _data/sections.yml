@@ -4,83 +4,90 @@
 
 - title: Music
   videos:
-  - link: https://www.youtube.com/watch?v=ZyJmF45Jqak
-    embed: https://www.youtube.com/embed/ZyJmF45Jqak
-    image: https://img.youtube.com/vi/ZyJmF45Jqak/sddefault.jpg
-    preview: PORTAL • ポータル
-    full: <b>PORTAL</b>
+    - link: https://www.youtube.com/watch?v=XXM0fG0xmRc
+      embed: https://www.youtube.com/embed/XXM0fG0xmRc
+      image: https://img.youtube.com/vi/XXM0fG0xmRc/hqdefault.jpg
+      preview: Puzzle Me Miku
+      full: <b>Puzzle Me Miku</b>
+        <br>
+        ft. Hatsune Miku • 初音ミク
+
+    - link: https://www.youtube.com/watch?v=ZyJmF45Jqak
+      embed: https://www.youtube.com/embed/ZyJmF45Jqak
+      image: https://img.youtube.com/vi/ZyJmF45Jqak/hqdefault.jpg
+      preview: PORTAL • ポータル
+      full: <b>PORTAL</b>
         <br>
         <b>ポータル</b>
         <br>
         feat. Hatsune Miku • 初音ミク
-          
-  - link: https://www.youtube.com/watch?v=Yhi5PjGmdX8
-    embed: https://www.youtube.com/embed/Yhi5PjGmdX8
-    image: https://img.youtube.com/vi/Yhi5PjGmdX8/sddefault.jpg
-    preview: LIVE TO SURVIVE • 生き残るべく生きる
-    full: <b>LIVE TO SURVIVE</b>
-          <br>
-          <b>生き残るべく生きる</b>
-          <br>
-          feat. Kagamine Rin & Len / 鏡音リン・レン
 
-  - link: https://www.youtube.com/watch?v=Kr72y940D6c
-    embed: https://www.youtube.com/embed/Kr72y940D6c
-    image: https://img.youtube.com/vi/Kr72y940D6c/hqdefault.jpg
-    preview: Fly With Me!
-    full: <b>Fly With Me!</b>
-          <br>
-          ft. Hatsune Miku • 初音ミク
+    - link: https://www.youtube.com/watch?v=Yhi5PjGmdX8
+      embed: https://www.youtube.com/embed/Yhi5PjGmdX8
+      image: https://img.youtube.com/vi/Yhi5PjGmdX8/hqdefault.jpg
+      preview: LIVE TO SURVIVE • 生き残るべく生きる
+      full: <b>LIVE TO SURVIVE</b>
+        <br>
+        <b>生き残るべく生きる</b>
+        <br>
+        feat. Kagamine Rin & Len / 鏡音リン・レン
 
-  - link: https://www.youtube.com/watch?v=GL093xdXwnc
-    embed: https://www.youtube.com/embed/GL093xdXwnc
-    image: https://img.youtube.com/vi/GL093xdXwnc/hqdefault.jpg
-    preview: KATAMARI ON THE ROCKS
-    full: <b>KATAMARI ON THE ROCKS</b>
-          <br>
-          <b>塊オンザロック</b>
-          <br>
-          Arklite Ver.
+    - link: https://www.youtube.com/watch?v=Kr72y940D6c
+      embed: https://www.youtube.com/embed/Kr72y940D6c
+      image: https://img.youtube.com/vi/Kr72y940D6c/hqdefault.jpg
+      preview: Fly With Me!
+      full: <b>Fly With Me!</b>
+        <br>
+        ft. Hatsune Miku • 初音ミク
 
-  - link: https://www.youtube.com/watch?v=QDbwHBH0kpw
-    embed: https://www.youtube.com/embed/QDbwHBH0kpw
-    image: https://img.youtube.com/vi/QDbwHBH0kpw/hqdefault.jpg
-    preview: Island World
-    full: <b>Island World</b>
-          <br>
-          Shiny Tropics
-          <br>
-          (Track, mix, master, video by Arklite)
+    - link: https://www.youtube.com/watch?v=GL093xdXwnc
+      embed: https://www.youtube.com/embed/GL093xdXwnc
+      image: https://img.youtube.com/vi/GL093xdXwnc/hqdefault.jpg
+      preview: KATAMARI ON THE ROCKS
+      full: <b>KATAMARI ON THE ROCKS</b>
+        <br>
+        <b>塊オンザロック</b>
+        <br>
+        Arklite Ver.
+
+    - link: https://www.youtube.com/watch?v=QDbwHBH0kpw
+      embed: https://www.youtube.com/embed/QDbwHBH0kpw
+      image: https://img.youtube.com/vi/QDbwHBH0kpw/hqdefault.jpg
+      preview: Island World
+      full: <b>Island World</b>
+        <br>
+        Shiny Tropics
+        <br>
+        (Track, mix, master, video by Arklite)
 
 - title: Gumi's JAMBOX
   videos:
-  - link: https://www.youtube.com/watch?v=WXP-ebYgDAU
-    embed: https://www.youtube.com/embed/WXP-ebYgDAU
-    image: https://img.youtube.com/vi/WXP-ebYgDAU/hqdefault.jpg
-    preview: Gumi's JAMBOX || EP 1
-    full: <b>Gumi's JAMBOX</b>
-          <br>
-          <b>How to write MUSIC</b>
-          <br>
-          Episode 1
-  - link: https://www.youtube.com/watch?v=OxwKePxB6eM
-    embed: https://www.youtube.com/embed/OxwKePxB6eM
-    image: https://img.youtube.com/vi/OxwKePxB6eM/hqdefault.jpg
-    preview: Gumi's JAMBOX || EP 2
-    full: <b>Gumi's JAMBOX</b>
-          <br>
-          <b>How to Create SOUNDS</b>
-          <br>
-          Episode 2
+    - link: https://www.youtube.com/watch?v=WXP-ebYgDAU
+      embed: https://www.youtube.com/embed/WXP-ebYgDAU
+      image: https://img.youtube.com/vi/WXP-ebYgDAU/hqdefault.jpg
+      preview: Gumi's JAMBOX || EP 1
+      full: <b>Gumi's JAMBOX</b>
+        <br>
+        <b>How to write MUSIC</b>
+        <br>
+        Episode 1
 
-
-  # - link: https://www.youtube.com/watch?v=3nfSwyfDQK4
-  #   embed: https://www.youtube.com/embed/3nfSwyfDQK4
-  #   image: https://img.youtube.com/vi/3nfSwyfDQK4/hqdefault.jpg
-  #   preview: Spirit LINE
-  #   full: <b>Spirit LINE</b>
-  #         <br>
-  #         ft. Hatsune Miku • 初音ミク
+    - link: https://www.youtube.com/watch?v=OxwKePxB6eM
+      embed: https://www.youtube.com/embed/OxwKePxB6eM
+      image: https://img.youtube.com/vi/OxwKePxB6eM/hqdefault.jpg
+      preview: Gumi's JAMBOX || EP 2
+      full: <b>Gumi's JAMBOX</b>
+        <br>
+        <b>How to Create SOUNDS</b>
+        <br>
+        Episode 2
+# - link: https://www.youtube.com/watch?v=3nfSwyfDQK4
+#   embed: https://www.youtube.com/embed/3nfSwyfDQK4
+#   image: https://img.youtube.com/vi/3nfSwyfDQK4/hqdefault.jpg
+#   preview: Spirit LINE
+#   full: <b>Spirit LINE</b>
+#         <br>
+#         ft. Hatsune Miku • 初音ミク
 
 # - link: https://www.youtube.com/watch?v=xBLHFET5cHI
 #   embed: https://www.youtube.com/embed/xBLHFET5cHI
@@ -93,7 +100,7 @@
 # - link: https://www.youtube.com/watch?v=yf9jS6JZPOs
 #   embed: https://www.youtube.com/embed/yf9jS6JZPOs
 #   image: https://img.youtube.com/vi/yf9jS6JZPOs/hqdefault.jpg
-#   preview: Ground Floor 
+#   preview: Ground Floor
 #   full: <b>Ground Floor</b>
 #         <br>
 #         Collapse
