@@ -4,6 +4,12 @@
 
 - title: Music
   videos:
+    - link: https://www.youtube.com/watch?v=lIM-SSEOLwA
+      embed: https://www.youtube.com/embed/lIM-SSEOLwA
+      image: http://img.youtube.com/vi/lIM-SSEOLwA/maxresdefault.jpg
+      preview: BLASTOFF GIRL
+      full: <b>BLASTOFF GIRL</b>
+  
     - link: https://www.youtube.com/watch?v=XXM0fG0xmRc
       embed: https://www.youtube.com/embed/XXM0fG0xmRc
       image: https://img.youtube.com/vi/XXM0fG0xmRc/hqdefault.jpg
